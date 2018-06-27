@@ -1,0 +1,19 @@
+.wrapper{
+  height: auto;
+  width: 100%;
+  background-color: white;
+}
+
+.formwrapper form input{
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  background-color: lightcyan;
+  border-radius: 5px;
+  display: inline;
+}
+
+form input{
+  display: inline;
+}
+

@@ -1,0 +1,41 @@
+body{
+  background-color: #66FCF1;
+}
+.headerDiv{
+  display: inline;
+
+}
+
+.headerDiv ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 50px;
+}
+
+.headerDiv li {
+  float: left;
+}
+
+.headerDiv li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.headerDiv li a:hover {
+  background-color: #111;
+}
+
+.dojos {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 30px;
+}

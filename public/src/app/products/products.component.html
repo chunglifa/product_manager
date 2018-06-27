@@ -1,0 +1,25 @@
+
+<div class="wrapper">
+  <h1>Product List</h1>
+  <div class="formwrapper">
+    <table style="width:100%">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Qty</th>
+        <th>Price</th>
+        <th>Action</th>
+      </tr>
+      <tr *ngFor="let product of products">
+          <td> {{ product.productid }}</td>
+          <td> {{ product.name }}</td>
+          <td> {{ product.qty }}</td>
+          <td> ${{ product.price }}</td>
+          <td>
+              <button [routerLink]="['/products', product.productid]">Details</button>
+              <button [routerLink]="['/products', product.productid, 'edit']">Edit</button>
+          </td>
+      </tr>
+    </table>
+  </div>
+</div>
